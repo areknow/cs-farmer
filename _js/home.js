@@ -11,6 +11,17 @@
   // ============================================
   $(function() {
 
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      items: 1
+    });
+    $('.slider-nav .prev').click(function() {
+      owl.trigger('prev.owl.carousel');
+    })
+    $('.slider-nav .next').click(function() {
+      owl.trigger('next.owl.carousel');
+    })
+
   });// end document ready
 
   // ============================================

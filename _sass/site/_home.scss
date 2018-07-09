@@ -1,0 +1,90 @@
+#home {
+
+  .hero {
+    .inner {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      margin-top: 435px;
+      .details {
+        width: 600px;
+        p {
+          margin-top: 30px;
+          max-width: 520px;
+        }
+        .slider-nav {
+          margin-top: 40px;
+          .nav-button {
+            background: blue;
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            margin-right: 40px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .owl-carousel {
+      .item {
+        height: 820px;
+        background: red;
+      }
+    }
+  }
+
+  .nav {
+    text-align: center;
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between; 
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          color: inherit;
+          text-decoration: none;
+          opacity: 0.5;
+          padding: 35px 0;
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 3px;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .masonry {
+    .row {
+      background: #f7f8fa;
+      .image {
+        height: 700px;
+        background: blue;
+      }
+      .image, .text {
+        vertical-align: middle;
+      }
+      .text {
+        padding: 0 10%;
+        p {
+          margin-top: 20px;
+        }
+        a {
+          margin-top: 50px;
+        }
+      }
+    }
+    .row-reverse {
+      .image {
+        background: pink;
+      }
+    }
+  }
+
+}
