@@ -1,0 +1,104 @@
+#experience {
+
+  .hero {
+    height: 820px;
+    background: rgb(155, 155, 196);
+    .inner {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      margin-top: 435px;
+      .details {
+        width: 600px;
+        h1 {
+          max-width: 365px;
+        }
+        p {
+          margin-top: 30px;
+          max-width: 520px;
+        }
+      }
+    }
+  }
+
+  .projects {
+    .row {
+      .image {
+        vertical-align: middle;
+        .slider-wrapper {
+          position: relative;
+          .slider-nav {
+            display: inline-block;
+            position: absolute;
+            top: 42px;
+            left: 0;
+            z-index: 2;
+            font-size: 0;
+            .nav-item {
+              width: 50px;
+              height: 43px;
+              background: #fff;
+              display: inline-block;
+              font-size: 12px;
+              position: relative;
+              cursor: pointer;
+              .icon {
+                width: 14px;
+                height: 14px;
+                background: black;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+              }
+            }
+          }
+          .owl-carousel {
+            .item {
+              height: 600px;
+              background: rgb(165, 45, 45);
+            }
+          }
+        }
+        
+      }
+      .listing {
+        vertical-align: middle;
+        padding: 0 6%;
+        .grid {
+          margin-top: 50px;
+          .row {
+            .tile {
+              margin-bottom: 20px;
+              font-size: 12px;
+              line-height: 2;
+              color: rgba(0, 0, 0, 0.4);
+              .inner {
+                max-width: 250px;
+                .title {
+                  font-weight: 600;
+                  color: rgba(0, 0, 0, 0.7);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .row-reverse {
+      background: #f7f8fa;
+      .image {
+        .slider-wrapper {
+          .slider-nav {
+            .nav-item {
+              background: #f7f8fa;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
