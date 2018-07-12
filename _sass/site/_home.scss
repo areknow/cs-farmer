@@ -15,9 +15,8 @@
         .slider-nav {
           margin-top: 40px;
           .nav-button {
-            background: blue;
             display: inline-block;
-            width: 10px;
+            width: 13px;
             height: 20px;
             margin-right: 40px;
             cursor: pointer;
@@ -28,7 +27,10 @@
     .owl-carousel {
       .item {
         height: 820px;
-        background: red;
+        background-image: url(/assets/images/hero-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
       }
     }
   }
@@ -65,7 +67,15 @@
       background: #f7f8fa;
       .image {
         height: 700px;
-        background: blue;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .home-1 {
+        background-image: url(/assets/images/home-1.jpg);
+      }
+      .home-2 {
+        background-image: url(/assets/images/home-2.jpg);
       }
       .image, .text {
         vertical-align: middle;
@@ -78,11 +88,6 @@
         a {
           margin-top: 50px;
         }
-      }
-    }
-    .row-reverse {
-      .image {
-        background: pink;
       }
     }
   }

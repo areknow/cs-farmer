@@ -2,7 +2,10 @@
 
   .hero {
     height: 820px;
-    background: rgb(155, 155, 196);
+    background-image: url(/assets/images/hero-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
     .inner {
       position: absolute;
       z-index: 2;
@@ -12,10 +15,13 @@
         width: 600px;
         h1 {
           max-width: 365px;
+          color: #fff;
         }
         p {
           margin-top: 30px;
           max-width: 520px;
+          color: #fff;
+          opacity: 1;
         }
       }
     }
@@ -43,9 +49,6 @@
               position: relative;
               cursor: pointer;
               .icon {
-                width: 14px;
-                height: 14px;
-                background: black;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -58,7 +61,22 @@
           .owl-carousel {
             .item {
               height: 600px;
-              background: rgb(165, 45, 45);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: bottom;
+              background-color: rgb(165, 45, 45);
+            }
+            .item-1 {
+              background-image: url(/assets/images/home-1.jpg);
+            }
+            .item-2 {
+              background-image: url(/assets/images/experience-2.jpg);
+            }
+            .item-3 {
+              background-image: url(/assets/images/experience-3.jpg);
+            }
+            .item-4 {
+              background-image: url(/assets/images/experience-4.jpg);
             }
           }
         }
