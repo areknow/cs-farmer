@@ -11,6 +11,12 @@
   // ============================================
   $(function() {
 
+    var hash = window.location.hash;
+    if(hash) {
+      $('html, body').scrollTop($(hash).offset().top);
+      history.replaceState(null, null, ' ');
+    }
+
     // Default options for sliders
     owlOptions = {
       items: 1,

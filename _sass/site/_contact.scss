@@ -2,7 +2,25 @@
 
   .info {
     .text {
+      .inner {
+        margin-top: 400px;
+        .row {
+          text-align: center;
+          margin-bottom: 80px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          .tile {
+            text-align: left;
+            display: inline-block;
+            width: 240px;
+            h2 {
+              margin-bottom: 20px;
+            }
+          }
+        }
 
+      }
     }
     .map {
       #map {

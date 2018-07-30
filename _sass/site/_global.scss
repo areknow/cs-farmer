@@ -9,7 +9,8 @@ body {
   background-color: #ffffff;
   color: #3a3a3a;
   font-size: 14px;
-  font-family: 'Cabin', sans-serif;
+  // font-family: 'Cabin', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: normal; 
   font-style: normal; 
   padding: 0;
@@ -55,6 +56,7 @@ body {
 .page-column {
   max-width: 1170px;
   margin: auto;
+  padding: 0 10px;
 }
 .float-right {
   float: right;
@@ -68,7 +70,7 @@ body {
 
 h1 {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.2;
   letter-spacing: 6.3px;
   color: #000000;
@@ -76,7 +78,7 @@ h1 {
 }
 h2 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.4;
   letter-spacing: 2px;
   color: #000000;
@@ -111,3 +113,14 @@ a.primary-button {
   -webkit-appearance: none;
   border: none;
 }
+
+
+
+
+
+
+// @media only screen and (max-width: 1300px) {
+//   .page-column {
+//       padding: 0 10%;
+//   }
+// }
