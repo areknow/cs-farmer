@@ -159,3 +159,30 @@
     height: 380px;
   }
 }
+
+
+@media only screen and (max-width: $phone) {
+  #experience .hero .inner {
+    margin-top: 202px;
+  }
+  #experience .hero .inner .details {
+    width: 100%;
+    text-align: center;
+  }
+  #experience .hero .inner .details h1 {
+    max-width: 280px;
+    margin: auto;
+  }
+  #experience .projects .row .image .slider-wrapper .owl-carousel .item {
+    height: 260px;
+  }
+  #experience .projects .row .listing .grid .row .tile {
+    width: 100%;
+  }
+  #experience .projects .row .listing {
+    padding: 36px 6%;
+  }
+  #experience .projects .row .listing .grid {
+    margin-top: 40px;
+  }
+}

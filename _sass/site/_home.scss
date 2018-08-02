@@ -141,6 +141,9 @@
 
 
 @media only screen and (max-width: $phone) {
+  #home .hero {
+    margin-bottom: 20px;
+  }
   #home .hero .inner .details {
     width: 100%;
   }
@@ -148,10 +151,27 @@
     margin-top: 170px;
   }
   #home .hero .owl-carousel .item {
-    background-size: cover;
-    background-position: center;
+    background-size: 290%;
+    background-position: -550px -130px;
   }
   #home .hero .inner .details {
     text-align: center;
+  }
+  #home .nav {
+    display: none;
+  }
+  #home .hero .inner .details .slider-nav .nav-button {
+    margin: 0;
+  }
+  #home .hero .inner .details .slider-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+  #home .masonry .row .image {
+    height: 260px;
+  }
+  #home .masonry .row .text {
+    padding: 36px 6% 70px 6%;
   }
 }
