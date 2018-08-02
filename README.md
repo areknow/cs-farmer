@@ -1,6 +1,6 @@
-# dev-stack #
+# cs-farmer #
 
-Static site generator with Sass, Handlebars, Routes and Gulp
+Static frontend for CS Farmer construction company
 
 ##### Quickstart
 
