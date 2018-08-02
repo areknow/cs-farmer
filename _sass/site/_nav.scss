@@ -83,7 +83,6 @@ nav {
     height: 50px;
     padding-left: 0;
     text-align: center;
-    // position: relative;
     .menu-button {
       cursor: pointer;
       content: "";
@@ -142,6 +141,20 @@ nav {
           }
         }
       }
+    }
+  }
+  nav.active {
+    .menu-button {
+      height: 16px;
+      width: 16px;
+      left: 21px;
+      background-image: url(/assets/images/icons/close.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    ul.menu { 
+      display: block;
     }
   }
 }

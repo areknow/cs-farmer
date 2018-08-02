@@ -15,7 +15,7 @@
     activeNavLink();
 
     $('nav .menu-button').click(function() {
-      $('nav ul.menu').toggle();
+      $('nav').toggleClass('active');
     })
 
   });// end document ready

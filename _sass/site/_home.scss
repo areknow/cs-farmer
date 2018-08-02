@@ -144,6 +144,9 @@
   #home .hero {
     margin-bottom: 20px;
   }
+  #home .hero .inner {
+    pointer-events: none;
+  }
   #home .hero .inner .details {
     width: 100%;
   }
