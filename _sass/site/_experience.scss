@@ -120,3 +120,42 @@
   }
 
 }
+
+
+
+
+
+
+@media only screen and (max-width: $tablet-portrait) {
+  #experience .hero {
+    height: 600px;
+    margin-bottom: 20px;
+  }
+  #experience .hero .inner {
+    margin-top: 286px;
+  }
+  #experience .hero .inner .details p {
+    max-width: 560px;
+  }
+  #experience .projects .row .col {
+    width: 100%;
+  }
+  #experience .projects .row .listing .grid .col {
+    width: 33.3333333333%;
+  }
+  #experience .projects .row-reverse {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column-reverse;
+    flex-flow: column-reverse;
+  }
+  #experience .projects .row .listing {
+    padding: 60px 10%;
+  }
+  #experience .projects .row .image .slider-wrapper .owl-carousel .item {
+    height: 380px;
+  }
+}

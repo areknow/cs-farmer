@@ -14,6 +14,10 @@
     // Highlight the active route
     activeNavLink();
 
+    $('nav .menu-button').click(function() {
+      $('nav ul.menu').toggle();
+    })
+
   });// end document ready
 
   // ============================================

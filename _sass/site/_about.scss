@@ -86,3 +86,53 @@
   }
 
 }
+
+
+
+
+
+
+@media only screen and (max-width: $tablet-portrait) {
+  #about .hero {
+    height: 600px;
+  }
+  #about .hero .inner {
+    margin-top: 286px;
+  }
+  #about .hero .inner .details p {
+    max-width: 560px;
+  }
+  #about .mission {
+    padding: 100px 10%;
+  }
+  #about .mission .col {
+    width: 100%;
+  }
+  #about .mission .col.two {
+    height: 70px;
+  }
+  #about .services {
+    padding: 100px 0;
+  }
+  #about .services h2 {
+    display: none;
+  }
+  #about .services .grid {
+    margin-top: 0;
+  }
+  #about .leadership {
+    padding: 100px 0;
+  }
+  #about .leadership .details .col {
+    width: 100%;
+  }
+  #about .leadership h2 {
+    display: none;
+  }
+  #about .leadership .details {
+    margin-top: 0;
+  }
+  #about .leadership .details .image {
+    margin-bottom: 100px;
+  }
+}

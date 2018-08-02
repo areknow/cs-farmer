@@ -57,3 +57,72 @@ nav {
     }
   }
 }
+
+
+
+
+
+
+@media only screen and (max-width: $tablet-portrait) {
+  nav {
+    text-align: right;
+    padding-left: 10%;
+  }
+  nav .page-column ul.menu li a {
+    padding: 30px 0;
+  }
+}
+
+
+@media only screen and (max-width: 626px) {
+  nav {
+    height: 50px;
+    padding-left: 0;
+    text-align: center;
+    position: relative;
+    .menu-button {
+      cursor: pointer;
+      content: "";
+      position: absolute;
+      height: 12px;
+      width: 18px;
+      background: linear-gradient(
+        to bottom, 
+        #b3b3b3, #b3b3b3 20%, 
+        white 20%, white 40%, 
+        #b3b3b3 40%, #b3b3b3 60%, 
+        white 60%, white 80%, 
+        #b3b3b3 80%, #b3b3b3 100%
+      );
+      top: 0;
+      left: 20px;
+      bottom: 0;
+      margin: auto;
+    }
+    .page-column {
+      .brand {
+        position: relative;
+        padding: 12px 0;
+        display: block;
+        height: auto;
+        width: 100px;
+      }
+      ul.menu {
+        display: none;
+        z-index: 100;
+        background: white;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        text-align: left;
+        li {
+          width: 100%;
+          a {
+            padding: 10px 5px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
