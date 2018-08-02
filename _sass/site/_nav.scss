@@ -76,10 +76,14 @@ nav {
 
 @media only screen and (max-width: 626px) {
   nav {
+    z-index: 10000;
+    background: white;
+    position: fixed;
+    width: 100%;
     height: 50px;
     padding-left: 0;
     text-align: center;
-    position: relative;
+    // position: relative;
     .menu-button {
       cursor: pointer;
       content: "";
@@ -108,18 +112,33 @@ nav {
         width: 100px;
       }
       ul.menu {
+        position: fixed;
+        height: 100vh;
+        top: 50px;
         display: none;
         z-index: 100;
         background: white;
         width: 100%;
         left: 0;
+        bottom: 0;
         position: absolute;
         text-align: left;
+        padding-top: 60px;
         li {
           width: 100%;
           a {
-            padding: 10px 5px;
+            padding: 40px 6%;
             margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+          }
+        }
+        li.active {
+          a {
+            opacity: 1;
+          }
+          a:after {
+            display: none;
           }
         }
       }
